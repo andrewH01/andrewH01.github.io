@@ -7,14 +7,14 @@ description: >
   Andrew Hartnett's blog. Contains weekly updates on Summer 2020 research.
 
 # Your information
-email: your_email@example.com
-author: your_name
+email: ahartnett@umass.edu
+author: Andrew Hartnett
 avatar: "//www.gravatar.com/avatar/your_email_md5?d=mm&s=135"
 profile: One sentence introducing yourself.
 #twitter_username: twitter_username
 #github_username:  github_username
 profile_links:
-  Email: "ahartnett@umass.edu"
+# Email: "ahartnett@umass.edu"
   GitHub: "https://github.com/andrewH02"
   # You can add more profile links above, or edit _includes/sidebar.html
 
