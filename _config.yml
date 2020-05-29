@@ -1,10 +1,10 @@
 # Site settings
-title: Another Blog
-url: "http://laobubu.github.io"    # the protocol and hostname of your site, eg. `http://laobubu.github.io`
-baseurl: "/jekyll-theme-EasyBook" # the prefix of your site uri, eg. `"/jekyll-theme-EasyBook"` or empty string `""`
+title: Andrew Hartnett - Summer 2020 Research Blog
+url: ""    # the protocol and hostname of your site, eg. `http://laobubu.github.io`
+baseurl: "" # the prefix of your site uri, eg. `"/jekyll-theme-EasyBook"` or empty string `""`
 #timezone: Asia/Chongqing
 description: >
-  One or more sentences introducing this blog.
+  Andrew Hartnett's blog. Contains weekly updates on Summer 2020 research.
 
 # Your information
 email: your_email@example.com
@@ -14,9 +14,9 @@ profile: One sentence introducing yourself.
 #twitter_username: twitter_username
 #github_username:  github_username
 profile_links:
-  Email: "mailto:your_email@example.com"
-  GitHub: "https://github.com/laobubu/jekyll-theme-EasyBook"
-  # You can add more profile links above, or edit _includes/sidebar.html 
+  Email: "ahartnett@umass.edu"
+  GitHub: "https://github.com/andrewH02"
+  # You can add more profile links above, or edit _includes/sidebar.html
 
 # Comment Service (Disqus or 多说)
 #  choose one and un-comment the line to active it
@@ -29,7 +29,6 @@ header:
   links:             # Links on the header. Link to in-site page with a slash as prefix
     About: /about/
     Category: /category/
-    Donate: https://laobubu.net/donate.html
 
 permalink: /archivers/:title
 plugins:
