@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to My Blog"
-date:   2020-05-25 15:17:52 -0400
+title:  "Week 1 Rundown (5/18 - 5/22)"
+date:   2020-05-22 15:17:52 -0400
 categories: jekyll update
 ---
