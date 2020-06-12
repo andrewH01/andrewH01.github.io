@@ -10,10 +10,11 @@ description: >
 # Your information
 email: ahartnett@umass.edu
 author: Andrew Hartnett
-avatar: "//www.gravatar.com/avatar/your_email_md5?d=mm&s=135"
+avatar: /images/andrew_profile_pic.jpg
 profile:
 #twitter_username: twitter_username
-github_username:  andrewH02
+linkedin_username: in/andrew-hartnett-4a2aa6172/
+email: ahartnett@umass.edu
 profile_links:
 # Email: "ahartnett@umass.edu"
   GitHub: "https://github.com/andrewH02"
