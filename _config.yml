@@ -4,15 +4,16 @@ url: ""    # the protocol and hostname of your site, eg. `http://laobubu.github.
 baseurl: "" # the prefix of your site uri, eg. `"/jekyll-theme-EasyBook"` or empty string `""`
 #timezone: Asia/Chongqing
 description: >
-  Andrew Hartnett's blog. Contains weekly updates on Summer 2020 research.
+  Andrew Hartnett's blog. Contains weekly updates on Summer 2020 research
+  measuring impact of laser injection on oscillators.
 
 # Your information
 email: ahartnett@umass.edu
 author: Andrew Hartnett
 avatar: "//www.gravatar.com/avatar/your_email_md5?d=mm&s=135"
-profile: One sentence introducing yourself.
+profile:
 #twitter_username: twitter_username
-#github_username:  github_username
+github_username:  andrewH02
 profile_links:
 # Email: "ahartnett@umass.edu"
   GitHub: "https://github.com/andrewH02"
@@ -27,8 +28,8 @@ excerpt_separator: <!--more-->
 
 header:
   links:             # Links on the header. Link to in-site page with a slash as prefix
+    Category: /category/    #I switched the order of these to see if they would switch on the site
     About: /about/
-    Category: /category/
 
 permalink: /archivers/:title
 plugins:

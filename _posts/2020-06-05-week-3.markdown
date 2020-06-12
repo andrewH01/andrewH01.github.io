@@ -1,0 +1,8 @@
+---
+layout: post
+title:  Week 3 Rundown (6/1 - 6/5)
+date:   2020-06-05 15:01:49 -0400
+categories:
+  - Research
+  - All
+---

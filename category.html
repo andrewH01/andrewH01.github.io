@@ -22,5 +22,5 @@ permalink: /category/
 {% endunless %}{% endfor %}
 
   </ul>
-  
+
 </div>

@@ -1,6 +1,9 @@
 ---
 layout: post
-title:  "Week 0 Rundown (5/11 - 5/15)"
+title:  Week 0 Rundown (5/11 - 5/15)
 date:   2020-05-15 16:53:10 -0400
-categories: jekyll update
+categories:
+  - Research
+  - All
 ---
+I started on my research journey by hitting the books.

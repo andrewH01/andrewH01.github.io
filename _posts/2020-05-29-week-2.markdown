@@ -1,6 +1,8 @@
 ---
 layout: post
-title:  "Week 2 Rundown (5/25 - 5/29)"
-date:   2020-05-29 16:11:49 -0400
-categories: jekyll update
+title:  Week 2 Rundown (5/25 - 5/29)
+date:   2020-05-29 16:11:33 -0400
+categories:
+  - Research
+  - All
 ---
