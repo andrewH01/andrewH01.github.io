@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Week 4 Rundown (6/7 - 6/12)
+title:  Week 4 Rundown
 date:   2020-06-12 11:40:27 -0400
 categories:
   - Research

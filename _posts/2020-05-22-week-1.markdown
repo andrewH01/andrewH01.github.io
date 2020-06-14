@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Week 1 Rundown (5/18 - 5/22)
+title:  Week 1 Rundown
 date:   2020-05-22 15:17:52 -0400
 categories:
   - Research
