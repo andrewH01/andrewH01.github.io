@@ -7,9 +7,10 @@ categories:
   - All
 ---
 
-## Hello! This is the introductory post to my research blog...
+# Hello! This is the introductory post to my research blog...
 
 and I'm very excited to share my work over the remaining 12 weeks with you. I hope to learn plenty along the way, as well as pass that information along through weekly blog posts to report my work. Without further ado, here is the topic of my research.
+
 
 ## Background Information
 
@@ -17,12 +18,13 @@ and I'm very excited to share my work over the remaining 12 weeks with you. I ho
 
 [Thermal laser stimulation (TLS)][tls-wiki] involves the use of a laser to pinpoint locations within a circuit, either by injecting heat or current into it, providing several of possible outcomes. It could be so small that there is no noticeable difference, or maybe cause the circuit to malfunction, or, at its worst, cause permanent damage to the circuit. Where it becomes the most dangerous, however, is when it comes to security.
 
+
 ![Security engineering keeps sensitive online data protected](/images/week_0/bluepadlock_cybersecurity.jpg)
 
-Passwords, bank accounts numbers, and medical data are all examples of sensitive data that we all store online and need to be secure. Ultimately, these things need to be stored in hardware. There have been multiple studies and published papers focusing on how TLS can compromise secure systems. Throughout my research I'll be introducing some of these papers and investigating key findings they introduce to the field of security engineering, as well as relevance to my research project.
+Passwords, bank accounts numbers, and medical data are all examples of sensitive data that we all store online and need to be secure. Ultimately, these things need to be stored in hardware. There have been multiple studies and published papers focusing on how TLS can compromise secure systems. Throughout my research I'll be introducing some of these papers and investigating key findings they introduce to the field of security engineering, as well as relevance to my research project. Speaking of which...
 
-## Speaking of which... What is the project about?
+## What is the project about?
 
-I will be researching the effect of laser charge injection on ring oscillators in hopes to detect and prevent TLS in secure systems. To unpack that statement a little: a ring oscillator is a circuit loop comprised of back-to-back inverters, creating an oscillating waveform. In ideal conditions, the amount of delay between each inverter would be equal and we could use the number of inverters and their delay to calculate its frequency. However, this is not the case. 
+I will be researching the effect of laser charge injection on ring oscillators in hopes to detect and prevent TLS in secure systems. To unpack that statement a little: a ring oscillator is a circuit loop comprised of back-to-back inverters, creating an oscillating waveform. In ideal conditions, the amount of delay between each inverter would be equal and we could use the number of inverters and their delay to calculate its frequency. However, this is not the case. Many real factors can cause slight changes in delay and frequency. If someone were to attempt a laser charge injection attack into the system with a connected ring oscillator, we hope this would cause a strong enough frequency change to detect, allowing us to activate a countermeasure to prevent sensitive information from being read.
 
 [tls-wiki]: https://en.wikipedia.org/wiki/Thermal_laser_stimulation
