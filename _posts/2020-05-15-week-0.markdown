@@ -25,6 +25,6 @@ Passwords, bank accounts numbers, and medical data are all examples of sensitive
 
 I will be researching the effect of laser charge injection on ring oscillators in hopes to detect and prevent TLS in secure systems. To unpack that statement a little: a ring oscillator is a circuit loop comprised of back-to-back inverters, creating an oscillating waveform. In ideal conditions, the amount of delay between each inverter would be equal and we could use the number of inverters and their delay to calculate its frequency. However, this is not the case. Many real factors can cause slight changes in delay and frequency. If someone were to attempt a laser charge injection attack into the system with a connected ring oscillator, we hope this would cause a strong enough frequency change to detect, allowing us to activate a countermeasure to prevent sensitive information from being read.  
 
-*Next week,* I will be reading into papers involving side-channel analysis and laser stimulation. I'll be documenting relevant findings along the way.
+*Next week*, I will be reading into papers involving side-channel analysis and laser stimulation. I'll be documenting relevant findings along the way.
 
 [tls-wiki]: https://en.wikipedia.org/wiki/Thermal_laser_stimulation
