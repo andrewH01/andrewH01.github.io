@@ -1,3 +1,6 @@
 [week-0]
 greenlaser.png - https://www.ophiropt.com/blog/laser-measurement/a-beginners-guide-to-laser-beam-profiling/
 bluepadlock_cybersecurity.jpg - https://eecs.oregonstate.edu/sites/eecs.oregonstate.edu/files/images/cybersecurity-1200x450.jpg
+
+[week-1]
+ram_jam_figure.PNG - https://sci-hub.uno/10.1109/FDTC.2019.00015
