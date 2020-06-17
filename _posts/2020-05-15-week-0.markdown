@@ -3,7 +3,6 @@ layout: post
 title:  Week 0 Rundown
 date:   2020-05-15 16:53:10 -0400
 time_to_read: 5 minute read
-meta: This is a test
 categories:
   - Research
   - All

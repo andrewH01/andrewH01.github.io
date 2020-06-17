@@ -2,6 +2,7 @@
 layout: post
 title:  Week 1 Rundown
 date:   2020-05-22 15:17:52 -0400
+time_to_read: 7 minute read
 categories:
   - Research
   - All
@@ -11,12 +12,13 @@ categories:
 This week I looked at 3 papers regarding virtual FPGAs and possible vulnerabilities. Those papers are:
 1. *“RAM-Jam: Remote Temperature and Voltage Fault Attack on FPGAs using Memory Collisions”*, Alam et al.
 2. *“Characterization of Long Wire Data Leakage in Deep Submicron FPGAs”*, Provolengios et al.
-3. *“Oscillator without a combinatorial loop and its threat to FPGA in data centre”*, Sugawara et al.  
+3. *“Oscillator without a combinatorial loop and its threat to FPGA in data centre”*, Sugawara et al.
+
 Each provided helpful insight to begin my research and interesting findings that I will need to consider going forward. Here we'll explore each of the papers in detail.  
 
 # [1] Alam et al.
 
-![RAM-Jam, Figure 6][/images/week_1/ram_jam_figure.PNG]
+![From "RAM-Jam", Figure 6](/images/week_1/ram_jam_figure.PNG)
 
 In this study, researchers discuss their work in a SRAM memory fault injection attack. By wiring up look-up-tables to function as dual port RAM locations, Alam et al. are able to toggle memory write collisions, causing a slight rise in chip temperature when done. They initially focused on toggling the collisions very quickly and the chip temperature rose beyond the point of functioning correctly. However, they successfully determined the existence of collision frequencies that raise the chip temperature without being easily detected. This is where the danger of the attack comes from; It has the ability to cause hardware damage and bit-flips, but also carry out the attack stealthily.
 
