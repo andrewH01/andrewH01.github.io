@@ -38,6 +38,6 @@ I enjoyed reading this letter a lot! The idea behind it is this: there are a ple
 
 # Works Cited
 
-[1] M. M. Alam, S. Tajik, F. Ganji, M. Tehranipoor, and D. Forte, “RAM-Jam: Remote Temperature and Voltage Fault Attack on FPGAs using Memory Collisions,” in 2019 Workshop on Fault Diagnosis and Tolerance in Cryptography (FDTC), Aug. 2019, pp. 48–55, doi: 10.1109/FDTC.2019.00015.  
-[2] G. Provelengios, C. Ramesh, S. B. Patil, K. Eguro, R. Tessier, and D. Holcomb, “Characterization of Long Wire Data Leakage in Deep Submicron FPGAs,” in Proceedings of the 2019 ACM/SIGDA International Symposium on Field-Programmable Gate Arrays, Seaside, CA, USA, Feb. 2019, pp. 292–297, doi: 10.1145/3289602.3293923.  
-[3] T. Sugawara, K. Sakiyama, S. Nashimoto, D. Suzuki, and T. Nagatsuka, “Oscillator without a combinatorial loop and its threat to FPGA in data centre,” Electronics Letters, vol. 55, no. 11, pp. 640–642, Apr. 2019, doi: 10.1049/el.2019.0163.
+[1] M. M. Alam, S. Tajik, F. Ganji, M. Tehranipoor, and D. Forte, *“RAM-Jam: Remote Temperature and Voltage Fault Attack on FPGAs using Memory Collisions,”* in 2019 Workshop on Fault Diagnosis and Tolerance in Cryptography (FDTC), Aug. 2019, pp. 48–55, doi: 10.1109/FDTC.2019.00015.  
+[2] G. Provelengios, C. Ramesh, S. B. Patil, K. Eguro, R. Tessier, and D. Holcomb, *“Characterization of Long Wire Data Leakage in Deep Submicron FPGAs,”* in Proceedings of the 2019 ACM/SIGDA International Symposium on Field-Programmable Gate Arrays, Seaside, CA, USA, Feb. 2019, pp. 292–297, doi: 10.1145/3289602.3293923.  
+[3] T. Sugawara, K. Sakiyama, S. Nashimoto, D. Suzuki, and T. Nagatsuka, *“Oscillator without a combinatorial loop and its threat to FPGA in data centre,”* Electronics Letters, vol. 55, no. 11, pp. 640–642, Apr. 2019, doi: 10.1049/el.2019.0163.
