@@ -24,11 +24,17 @@ In this study, researchers discuss their work in a SRAM memory fault injection a
 
 # [2] Provolengios et al.
 
-By measuring small changes in delay "on the order of femtoseconds", researchers found that they could detect significant data leakage in long wires. They determined that "leakage can be avoided by disallowing multiple tenants to share use of a single channel" [2].
+What's most interesting to me about this paper is the use of ring oscillators. I got my first look into how studying frequency of the oscillator can provide much more data than we realize given the right scenario. For instance, the study was conducted on a multi-tenant FPGA, which has become more and more common in the cloud. If one user wires a RO into their FPGA and the placement is such that one wire is adjacent to a long wire of another user's section, the RO frequency will be measurably effected by the other user. The researchers conducted this experiment by sending straight logic 0s across the alternative user's long wire and again with logic 1s, all while measuring the count of a bit counter being drive by the RO.
+
+![From "Long Wire Data Leakage", Figure 1](/images/week_1/ro_equation.PNG)
+
+By measuring small changes in delay "on the order of femtoseconds", researchers found that they could detect significant data leakage in long wires from the RO frequency change. They determined that "leakage can be avoided by disallowing multiple tenants to share use of a single channel" [2].
 
 # [3] Sugawara et al.
 
+![From "Oscillator without combinatorial logic", Figure 2](/images/week_1/oscillators3.PNG)
 
+I enjoyed reading this letter a lot! The idea behind it is this: there are a plenty of attacks on virtual FPGAs that use combinatorial loops (feedback loops) that behave successfully, but in a lot of actual virtual FPGA data centers they don't allow a user to create a combinatorial loop at all. The letter then goes into how they were able to create "oscillators without a combinatorial loop" that till allow for all the same attacks [3]. It was greatly interesting to see how the complexity of the oscillator used (shown above) grows but is necessary to remain allowed within current FPGA rules and guidelines.
 
 # Works Cited
 
