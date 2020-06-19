@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Week 5 Rundown
-date:   2020-06-12 09:25:48 -0400
+date:   2020-06-19 09:25:48 -0400
 categories:
   - Research
   - All
