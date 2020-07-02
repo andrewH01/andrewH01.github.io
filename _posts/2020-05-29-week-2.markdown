@@ -2,8 +2,29 @@
 layout: post
 title:  Week 2 Rundown
 date:   2020-05-29 16:11:33 -0400
+time_to_read: 2 minute read
 categories:
   - Research
   - All
 ---
-Work in progress!
+# Beginning Simulations in ISE Design Suite
+
+Coming into Week 2 I've begun to familiarize myself with the tools I will be using to A) simulate my FPGA designs and B) program my working designs onto a board. But another important question to ask is: Which tools will I be using?
+
+For starters, I need a board. With the recommendation of Takeshi Sugawara, one of my advisors and a researcher from the University of Electro-Communications in Tokyo, Japan, we have chosen the [NewAE development board][newae-page] with a [Spartan 6 daughterboard][daughterboard]. At the beginning of the week, I had little knowledge of Verilog and needed to spend some of time with sample projects and tutorials in order to gain a better understanding.  
+
+I attempted to create a ring oscillator in Verilog, just to ensure that it was working within the ISE Design Suite. After several attempts, I got some help from Takeshi, synthesized, and implemented a simple ring oscillator with an enable. The schematic for it can be found below. This current RO still has an error when working with the enable input but still creates a correct schematic.  
+
+![Full current ring oscillator schematic](/images/week_2/ro_schem_total.png)
+
+The circuit uses LUTs ([lookup tables][lut]) in place of inverters (NOT gates) to create the oscillation. These form the same result but are many more times inefficient. Sadly, this is the current solution that was explained to me as the implementation with inverters didn't seem to work in our environment.  
+
+![Ring oscillator gif](https://hackaday.com/wp-content/uploads/2017/08/ring-ossilator.gif?w=800)
+
+The ring oscillator as a whole works very simply. When an enable signal is set HIGH, the input wire into the first inverter will have changed voltage from LOW to HIGH as well. This inverter now must set its output LOW, causing the second inverter to follow this same pattern. This creates a line of inversions that you can trace along the ring oscillator. While the enable signal is HIGH, this process will continue through the loop infinitely (in theory).
+
+*Next week*, I will be fixing errors in the ring oscillator and begin looking into designing a binary counter to feed the RO output into, allow me to measure the frequency of the RO in real time.
+
+[newae-page]: https://www.mouser.com/ProductDetail/NewAE/NAE-SCAPACK-L1?qs=sGAEpiMZZMuqBwn8WqcFUj2aNd7i9W7uZbKrGjJNkSQnPW4MEhpA9w==
+[daughterboard]: https://www.mouser.com/ProductDetail/NewAE/NAE-CW308T-S6LX9?qs=sGAEpiMZZMuqBwn8WqcFUj2aNd7i9W7uhzkZ6R9AanlniY7mO9Kdtw==
+[lut]: https://en.wikipedia.org/wiki/Lookup_table

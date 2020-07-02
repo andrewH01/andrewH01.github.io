@@ -2,7 +2,7 @@
 layout: post
 title:  Week 1 Rundown
 date:   2020-05-22 15:17:52 -0400
-time_to_read: 7 minute read
+time_to_read: 3 minute read
 categories:
   - Research
   - All
@@ -20,7 +20,7 @@ Each provided helpful insight to begin my research and interesting findings that
 
 ![From "RAM-Jam", Figure 6](/images/week_1/ram_jam_figure.PNG)
 
-In this study, researchers discuss their work in a SRAM memory fault injection attack. By wiring up look-up-tables to function as dual port RAM locations, Alam et al. are able to toggle memory write collisions, causing a slight rise in chip temperature when done. They initially focused on toggling the collisions very quickly and the chip temperature rose beyond the point of functioning correctly. However, they successfully determined the existence of collision frequencies that raise the chip temperature without being easily detected. This is where the danger of the attack comes from; It has the ability to cause hardware damage and bit-flips, but also carry out the attack stealthily.
+In this study, researchers discuss their work in a SRAM memory fault injection attack. By wiring up look-up-tables to function as dual port RAM locations [1]. are able to toggle memory write collisions, causing a slight rise in chip temperature when done. They initially focused on toggling the collisions very quickly and the chip temperature rose beyond the point of functioning correctly. However, they successfully determined the existence of collision frequencies that raise the chip temperature without being easily detected. This is where the danger of the attack comes from; It has the ability to cause hardware damage and bit-flips, but also carry out the attack stealthily.
 
 # [2] Provolengios et al.
 
@@ -35,6 +35,8 @@ By measuring small changes in delay "on the order of femtoseconds", researchers 
 ![From "Oscillator without combinatorial logic", Figure 2](/images/week_1/oscillators3.PNG)
 
 I enjoyed reading this letter a lot! The idea behind it is this: there are a plenty of attacks on virtual FPGAs that use combinatorial loops (feedback loops) that behave successfully, but in a lot of actual virtual FPGA data centers they don't allow a user to create a combinatorial loop at all. The letter then goes into how they were able to create "oscillators without a combinatorial loop" that till allow for all the same attacks [3]. It was greatly interesting to see how the complexity of the oscillator used (shown above) grows but is necessary to remain allowed within current FPGA rules and guidelines.
+
+*Next week*, I'll start working with Verilog and see how far I get with it. I'll be using the ISE Design Suite to develop my projects.
 
 # Works Cited
 
