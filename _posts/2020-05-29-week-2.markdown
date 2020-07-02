@@ -15,7 +15,7 @@ For starters, I need a board. With the recommendation of Takeshi Sugawara, one o
 
 I attempted to create a ring oscillator in Verilog, just to ensure that it was working within the ISE Design Suite. After several attempts, I got some help from Takeshi, synthesized, and implemented a simple ring oscillator with an enable. The schematic for it can be found below. This current RO still has an error when working with the enable input but still creates a correct schematic.  
 
-![Full current ring oscillator schematic](/images/week_2/ro_schem_total.png)
+![Full current ring oscillator schematic](/images/week_2/ro_schem_total.PNG)
 
 The circuit uses LUTs ([lookup tables][lut]) in place of inverters (NOT gates) to create the oscillation. These form the same result but are many more times inefficient. Sadly, this is the current solution that was explained to me as the implementation with inverters didn't seem to work in our environment.  
 
